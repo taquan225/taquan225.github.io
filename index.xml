@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Science Portfolio on Quan Ta</title>
+    <link>https://taquan225.github.io/</link>
+    <description>Recent content in Data Science Portfolio on Quan Ta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://taquan225.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Startup Success Predictor</title>
+      <link>https://taquan225.github.io/post/project-1/</link>
+      <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://taquan225.github.io/post/project-1/</guid>
+      <description>Illustration of the classification of succeeded and failed startups For the dataset, the code and further description: Link to GitHub Repository
+Introduction and Problem Definition As context, according to the Small Business Administration (SBA), many small businesses&amp;rsquo; growth and success is vital to the United States economy. Though this is the case, failure rates are high. Specifically, as of 2019, startup failure rates are around 90% and about 21% completely fail by the first year.</description>
+    </item>
+    
+    <item>
+      <title>Soccer Transfer Records from 2007 to 2017</title>
+      <link>https://taquan225.github.io/post/project-3/</link>
+      <pubDate>Thu, 25 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://taquan225.github.io/post/project-3/</guid>
+      <description>For full viz on Tableau, follow this link: Link to Full Viz on Tableau Public
+Basic Information Link to this dataset on Kaggle: https://www.kaggle.com/vardan95ghazaryan/transfers-in-1617-season This dataset contains transfer information of male soccer players from 2007 to 2017. The dimension of the dataset is 6236 rows to 10 columns. Each data instance has information about the player and the transfer. About the player, the row consists of the player’s name (PLAYER), his position on the field (POSITION), and his nationality (COUNTRY).</description>
+    </item>
+    
+    <item>
+      <title>Book Recommender System</title>
+      <link>https://taquan225.github.io/post/project-2/</link>
+      <pubDate>Tue, 21 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://taquan225.github.io/post/project-2/</guid>
+      <description>I built a content-based recommender system. Based on the author, the tags, and the rating of one book, I can recommend the users with books that they may like. I am using the vector space model and cosine distance between books’ vectors to find similar books. In this case, the vectors I are using are author_vector and tags_vector.
+For the dataset, the code and further description: Link to GitHub Repository</description>
+    </item>
+    
+    <item>
+      <title>SF Construction Permit Approval Time Estimator</title>
+      <link>https://taquan225.github.io/post/project-5/</link>
+      <pubDate>Sun, 20 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://taquan225.github.io/post/project-5/</guid>
+      <description>Introduction The project will be about predicting the amount of time that it will take to be approved for the permit based on the features that they have. This will be done by using the San Francisco Building Permit Data that was taken from Kaggle. This dataset is all the information that is collected that pertains to the permit issued by the government. These are all general information such as dates, type of permit, costs, and other kinds of needed information.</description>
+    </item>
+    
+    <item>
+      <title>Spotify Songs Popularity</title>
+      <link>https://taquan225.github.io/post/project-4/</link>
+      <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://taquan225.github.io/post/project-4/</guid>
+      <description>Introduction Our project will provide investigations about the impacts of songs’ attributes including genre, beats per minute (BPM), energy, danceability, loudness, valence value, etc. on the songs’ popularity. The overall goals of this project are to identify possible connections between songs’ characteristics as well as calculate and visualize the impactfulness of those attributes on the songs’ levels of trending.
+The dataset contains 01 file named “Spotify-2000.csv”. This is a CSV file of 165.</description>
+    </item>
+    
+    <item>
+      <title>Travel Database</title>
+      <link>https://taquan225.github.io/post/project-6/</link>
+      <pubDate>Fri, 20 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://taquan225.github.io/post/project-6/</guid>
+      <description>For further information related to Relational Schema, Data Dictonary or the our full work, visit the GitHub repository: Link to GitHub repository
+Problem Statement Goals The overall goal of the system is to provide clients with detailed information about different vacation sites. Examples of available information include, but are not limited to: city, culture, climate, average expenses, and available tour packages.
+Context It is critical that travel agencies are able to provide clients an enjoyable vacation.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://taquan225.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://taquan225.github.io/about/</guid>
+      <description>My name is Quan Ta and I am an undergraduate Data Science major with minors in Mathematics and Computer Science from Drexel University. As a passionate data enthusiast, I am excited to take the next step in my career and land a job in a data related field.
+During my time at Drexel, I have gained a strong foundation in data analysis, machine learning, and statistical modeling. Through my coursework and internships, I have developed proficiency in several programming languages including Python and R, as well as data manipulation and visualization tools such as SQL and Tableau.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://taquan225.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://taquan225.github.io/contact/</guid>
+      <description>I would love to connect and talk through these platforms
+Platforms URL Email: quanmta225@gmail.com Github: https://github.com/taquan225 LinkedIn: https://www.linkedin.com/in/quan-ta-3a3a44199/ </description>
+    </item>
+    
+  </channel>
+</rss>

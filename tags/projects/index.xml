@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Quan Ta</title>
+    <link>https://taquan225.github.io/tags/projects/</link>
+    <description>Recent content in Projects on Quan Ta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://taquan225.github.io/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Startup Success Predictor</title>
+      <link>https://taquan225.github.io/post/project-1/</link>
+      <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://taquan225.github.io/post/project-1/</guid>
+      <description>Illustration of the classification of succeeded and failed startups For the dataset, the code and further description: Link to GitHub Repository
+Introduction and Problem Definition As context, according to the Small Business Administration (SBA), many small businesses&amp;rsquo; growth and success is vital to the United States economy. Though this is the case, failure rates are high. Specifically, as of 2019, startup failure rates are around 90% and about 21% completely fail by the first year.</description>
+    </item>
+    
+  </channel>
+</rss>

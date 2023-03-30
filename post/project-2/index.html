@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Book Recommender System | Quan Ta</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="A tool built on ML to recommend books based on hobbies and reading history">
+    <meta name="generator" content="Hugo 0.111.3">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="https://taquan225.github.io/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Book Recommender System" />
+<meta property="og:description" content="A tool built on ML to recommend books based on hobbies and reading history" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://taquan225.github.io/post/project-2/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-06-21T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-06-21T00:00:00+00:00" /><meta property="og:site_name" content="Quan Ta" />
+<meta itemprop="name" content="Book Recommender System">
+<meta itemprop="description" content="A tool built on ML to recommend books based on hobbies and reading history"><meta itemprop="datePublished" content="2022-06-21T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-06-21T00:00:00+00:00" />
+<meta itemprop="wordCount" content="704">
+<meta itemprop="keywords" content="Project," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Book Recommender System"/>
+<meta name="twitter:description" content="A tool built on ML to recommend books based on hobbies and reading history"/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  
+  <header class="cover bg-top" style="background-image: url('https://taquan225.github.io/images/project-2-image.jpg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://taquan225.github.io/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Quan Ta
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://taquan225.github.io/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://taquan225.github.io/contact/" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://taquan225.github.io/post/" title="Project page">
+              Project
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+    
+    <a href="https://github.com/taquan225" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    
+    <a href="https://www.linkedin.com/in/quan-ta-3a3a44199/" target="_blank" rel="noopener" class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" aria-label="follow on LinkedIn——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Book Recommender System</div>
+          
+            <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              A tool built on ML to recommend books based on hobbies and reading history
+            </div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        PROJECT
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+      
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://taquan225.github.io/post/project-2/&amp;title=Book%20Recommender%20System" class="ananke-social-link linkedin no-underline" aria-label="share on LinkedIn">
+        
+        <span class="icon"> <svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+        
+      </a>
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Book Recommender System</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2022-06-21T00:00:00Z">June 21, 2022</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>I built a content-based recommender system. Based on the author, the tags, and the rating of one book, I can recommend the users with books that they may like. I am using the vector space model and cosine distance between books’ vectors to find similar books. In this case, the vectors I are using are author_vector and tags_vector.</p>
+<p>For the dataset, the code and further description: <a href="https://github.com/taquan225/book_recommender_system">Link to GitHub Repository</a></p>
+<h3 id="methods">Methods</h3>
+<ul>
+<li>Preprocessing the Data:
+<ul>
+<li>Merge the book_tags and tags dataset to generate the final book_tags dataset. This dataset contains book_id, tag_id, and count</li>
+<li>Drop unnecessary columns and kept only: book_id, original_publication_year, original_title, language_code, average_rating, authors, book_count</li>
+<li>Drop rows with null values. By doing this, I reduce the number of rows from 10,000 to 8,405</li>
+<li>Generate author_vector and tag_vector columns based on the book_tags data frame and column authors in the books data frame</li>
+</ul>
+</li>
+<li>Content-based Recommendation System:
+<ul>
+<li>get_rated_books():
+<ul>
+<li>Input: user_id</li>
+<li>Output: the list of book</li>
+<li>In this function, I are rating the book if they are greater than 4 by using
+user_id as an input.</li>
+</ul>
+</li>
+<li>cal_distance():
+<ul>
+<li>Input: 2 book_id and data frame</li>
+<li>Output: The distance</li>
+<li>In this function, I are calculating the cosine distance betIen book1 to book2 to get the target one from the dataset based on author_vector and tags_vector.</li>
+</ul>
+</li>
+<li>top_k_neighbor() :
+<ul>
+<li>Input: book_id, list of user_id’s favorite book, data frame</li>
+<li>Output: list of similar book_id and distance</li>
+<li>I am using the top_k_neighbor function to find the nearest neighbor of the book_id I provide. K is the number of neighbors that I need to find.</li>
+</ul>
+</li>
+<li>recommend_book():
+<ul>
+<li>Input: user_id, number of books the user want to have</li>
+<li>Output: The name of those books that I recommend to users</li>
+<li>This function takes the user_id and an integer n as inputs. The output is n books that are the most similar to those the user likes.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="interpret-the-recommended-results">Interpret the recommended results:</h3>
+<p>After running this function I can see the 8 books that are similar to those that are rated over 4 by the user. In this case, I test to recommend 8 books for user_id 9.
+<figure><img src="https://taquan225.github.io/images/project-2-0.jpg"/><figcaption>
+            <h4>Recommender Result</h4>
+        </figcaption>
+</figure>
+
+The recommender system manages to recommend 8 books for the users and prints out the names of those books.</p>
+<h3 id="evaluate-your-systems-performance">Evaluate your system’s performance:</h3>
+<p>I evaluated the system based on</p>
+<ul>
+<li>Accuracy: I use Root Mean Square Error (RMSE). The accuracy of 0.8466729436823051 is based on all users&rsquo; ratings. From this accuracy, I can
+say this dataset is the best fit for our recommended systems.</li>
+<li>Coverage: I did not cover books that are rated loIr than 4, as Ill as books that contain null values.</li>
+<li>Novelty: I are likely to recommend books that the user may not aware of their existence. It is due to the tags are taken into account of the recommender system.</li>
+</ul>
+<h3 id="limitation-and-future-improvement-of-your-system">Limitation and future improvement of your system:</h3>
+<ul>
+<li>The running time of the system is long. It is due to the number of books I take from the users to recommend from is high.
+<ul>
+<li>To improve on this, I may narrow down the number of books I take from the user down to only five or three. I can do this by changing the score threshold to be 4.5. Other than this, I can change the fixed number of books I take from the user to be five with the highest ratings. By doing this, I can reduce the training time.</li>
+</ul>
+</li>
+<li>Some tags and authors’ names are not in English. It reduces the number of books I can recommend to users, as I cannot access those books’ tags that are not in English.
+<ul>
+<li>To improve on this, I can apply a text classification to deal with characters that are not English. As I can read these words, I can improve our system by a huge margin. Users can have access to books that are similar in content but are not titled in English.</li>
+</ul>
+</li>
+<li>I did not take many features of books into consideration. Therefore, our recommendation results may not be the best.
+<ul>
+<li>To improve on this, I would want to take the published years into account. As books from different generations tend to be different, users tend to prefer books at certain times. Therefore, the recommender system can take year into account to provide better books for users</li>
+</ul>
+</li>
+</ul>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="https://taquan225.github.io/tags/project/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Project</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="https://taquan225.github.io/post/project-5/">SF Construction Permit Approval Time Estimator</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="https://taquan225.github.io/post/project-4/">Spotify Songs Popularity</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="https://taquan225.github.io/post/project-6/">Travel Database</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://taquan225.github.io/" >
+    &copy;  Quan Ta 2023 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+    
+    <a href="https://github.com/taquan225" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    
+    <a href="https://www.linkedin.com/in/quan-ta-3a3a44199/" target="_blank" rel="noopener" class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" aria-label="follow on LinkedIn——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
